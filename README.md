@@ -5,7 +5,7 @@
 A practical and fully automated Python pipeline to **upscale images by 4x** using Artificial Intelligence (Real-ESRGAN + GFPGAN), running directly in Google Colab.
 
 ---
-
+> ⚠️ **Stability Notice:** The `main` branch contains active development code and may be subject to unannounced updates or bugs. For the tested and official stable version, please use **[Release v1.0.0](https://github.com/hcristosm/image_batch_upscale/releases/tag/v1.0.0)**.
 ## ⚡ Key Features
 
 - 📦 **Batch Processing:** Supports individual photos or `.zip` archives (automatically extracts files from subdirectories).
