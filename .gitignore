@@ -1,0 +1,15 @@
+# Pastas geradas pelo código
+inputs/
+results/
+weights/
+Real-ESRGAN/
+
+# Arquivos compactados e imagens geradas
+*.zip
+*.jpg
+*.jpeg
+*.png
+
+# Arquivos de sistema do Colab / Jupyter
+.ipynb_checkpoints/
+__pycache__/
