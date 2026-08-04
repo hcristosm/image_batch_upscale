@@ -1,0 +1,16 @@
+# Install PyTorch *before* this file -- see README for the CPU/CUDA-specific command.
+# torch/torchvision are intentionally not pinned here since the right build
+# depends on your OS and CUDA version.
+
+# Real-ESRGAN / GFPGAN stack. These packages have been unmaintained on PyPI
+# since 2022, so versions are pinned for known-good compatibility.
+basicsr==1.4.2
+facexlib==0.3.0
+gfpgan==1.3.8
+realesrgan==0.3.0
+
+# Image I/O & utilities
+opencv-python==4.10.0.84
+Pillow>=10.0.0
+numpy<2
+tqdm>=4.66.0

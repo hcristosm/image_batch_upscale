@@ -1,15 +1,15 @@
-# Pastas geradas pelo código
-inputs/
-results/
+# Generated folders
 weights/
-Real-ESRGAN/
+output/
 
-# Arquivos compactados e imagens geradas
+# Archives and generated images
 *.zip
 *.jpg
 *.jpeg
 *.png
 
-# Arquivos de sistema do Colab / Jupyter
-.ipynb_checkpoints/
+# Python / venv
 __pycache__/
+*.pyc
+venv/
+.venv/
